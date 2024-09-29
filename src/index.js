@@ -1,7 +1,7 @@
-
 import "dotenv/config"; // This replaces `require('dotenv').config()` in ES modules
 import connectDB from "./db/index.js";
-import app from './app.js'
+import app from "./app.js";
+import uploadOnCloudinary from "./utils/cloudinary.js"; // Use the correct path and filename
 
 connectDB();
 
